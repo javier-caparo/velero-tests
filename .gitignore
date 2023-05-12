@@ -35,3 +35,4 @@ terraform.rc
 
 # veler0 credentials
 credentials-velero
+secret-test.yaml

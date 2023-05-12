@@ -67,6 +67,7 @@ configuration:
     config:
       storageAccount: velero0574
       resourceGroup: Velero_Backups
+      subscriptionId: 69c056e3-3492-4df2-9184-9b34ec11c1ba
   # Parameters for the `default` VolumeSnapshotLocation. See
   # https://velero.io/docs/v1.6/api-types/volumesnapshotlocation/
   volumeSnapshotLocation:
@@ -80,6 +81,7 @@ configuration:
     config:
       apiTimeout: 5m
       resourceGroup: Velero_Backups
+      subscriptionId: 69c056e3-3492-4df2-9184-9b34ec11c1ba
 # Info about the secret to be used by the Velero deployment, which
 # should contain credentials for the cloud provider IAM account you've
 # set up for Velero.
